@@ -1,0 +1,11 @@
+class Doctor:
+    def __init__(self, name):
+        self.name = name
+
+class Patient:
+    def __init__(self, name):
+        self.name = name
+        self.doctor = None  
+
+    def assign_doctor(self, doctor):
+        self.doctor = doctor
