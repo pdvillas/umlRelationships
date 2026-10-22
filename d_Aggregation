@@ -1,0 +1,7 @@
+class Wheel:
+    def __init__(self, size=18):
+        self.size = size
+
+class Bicycle:
+    def __init__(self, wheel):
+        self.wheel = wheel
