@@ -1,0 +1,10 @@
+import random
+
+class Die:
+    def roll(self):
+        return random.randint(1, 6)
+
+class Player:
+    def take_turn(self, die):
+        result = die.roll()
+        print(f"Player rolled a {result}")
